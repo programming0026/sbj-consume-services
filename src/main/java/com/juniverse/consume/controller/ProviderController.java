@@ -1,4 +1,4 @@
-package com.juniverse.consume.provider;
+package com.juniverse.consume.controller;
 
 import com.juniverse.consume.model.NewProduct;
 import com.juniverse.consume.model.Product;

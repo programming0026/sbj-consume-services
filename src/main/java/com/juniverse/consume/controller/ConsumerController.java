@@ -1,4 +1,4 @@
-package com.juniverse.consume.web;
+package com.juniverse.consume.controller;
 
 import com.juniverse.consume.client.ProductClient;
 import com.juniverse.consume.exception.ProductNotFoundException;

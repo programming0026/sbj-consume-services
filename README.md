@@ -49,7 +49,6 @@ Product p = api.findById(2);
 ```text
 src/main/java/com/juniverse/consume/
 ├── ConsumeServicesApplication.java   # @EnableFeignClients
-├── provider/ProviderController.java  # el servicio "externo" (/provider/products, /provider/slow)
 ├── client/
 │   ├── ProductClient.java            # contrato común
 │   ├── RestTemplateProductClient.java
@@ -57,9 +56,11 @@ src/main/java/com/juniverse/consume/
 │   ├── ProductFeignApi.java          # interfaz @FeignClient
 │   └── FeignProductClient.java       # adaptador al contrato común
 ├── config/FeignConfig.java           # interceptor y ErrorDecoder de Feign
+├── controller/
+│   ├── ProviderController.java       # el servicio "externo" (/provider/products, /provider/slow)
+│   └── ConsumerController.java       # /consume/...
 ├── exception/                        # ProductNotFoundException, RemoteServiceException
-├── model/                            # Product, NewProduct
-└── web/ConsumerController.java       # /consume/...
+└── model/                            # Product, NewProduct
 ```
 
 ## Requisitos

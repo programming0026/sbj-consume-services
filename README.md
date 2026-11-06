@@ -59,8 +59,9 @@ src/main/java/com/juniverse/consume/
 ├── controller/
 │   ├── ProviderController.java       # el servicio "externo" (/provider/products, /provider/slow)
 │   └── ConsumerController.java       # /consume/...
+├── dto/                              # NewProduct
 ├── exception/                        # ProductNotFoundException, RemoteServiceException
-└── model/                            # Product, NewProduct
+└── model/                            # Product
 ```
 
 ## Requisitos

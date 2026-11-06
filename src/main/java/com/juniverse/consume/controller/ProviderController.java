@@ -1,6 +1,6 @@
 package com.juniverse.consume.controller;
 
-import com.juniverse.consume.model.NewProduct;
+import com.juniverse.consume.dto.NewProduct;
 import com.juniverse.consume.model.Product;
 import java.math.BigDecimal;
 import java.util.List;

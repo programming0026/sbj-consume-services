@@ -1,4 +1,4 @@
-package com.juniverse.consume.model;
+package com.juniverse.consume.dto;
 
 import java.math.BigDecimal;
 

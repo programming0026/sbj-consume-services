@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.juniverse.consume.client.ProductClient;
 import com.juniverse.consume.exception.ProductNotFoundException;
 import com.juniverse.consume.exception.RemoteServiceException;
-import com.juniverse.consume.model.NewProduct;
+import com.juniverse.consume.dto.NewProduct;
 import com.juniverse.consume.model.Product;
 import java.io.IOException;
 import java.math.BigDecimal;

@@ -1,7 +1,7 @@
 package com.juniverse.consume.client;
 
 import com.juniverse.consume.exception.RemoteServiceException;
-import com.juniverse.consume.model.NewProduct;
+import com.juniverse.consume.dto.NewProduct;
 import com.juniverse.consume.model.Product;
 import feign.FeignException;
 import feign.RetryableException;

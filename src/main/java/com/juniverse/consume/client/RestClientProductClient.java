@@ -2,7 +2,7 @@ package com.juniverse.consume.client;
 
 import com.juniverse.consume.exception.ProductNotFoundException;
 import com.juniverse.consume.exception.RemoteServiceException;
-import com.juniverse.consume.model.NewProduct;
+import com.juniverse.consume.dto.NewProduct;
 import com.juniverse.consume.model.Product;
 import java.time.Duration;
 import java.util.List;

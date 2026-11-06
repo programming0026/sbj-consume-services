@@ -1,7 +1,7 @@
 package com.juniverse.consume.client;
 
 import com.juniverse.consume.config.FeignConfig;
-import com.juniverse.consume.model.NewProduct;
+import com.juniverse.consume.dto.NewProduct;
 import com.juniverse.consume.model.Product;
 import java.util.List;
 import org.springframework.cloud.openfeign.FeignClient;
